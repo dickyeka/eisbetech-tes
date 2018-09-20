@@ -86,6 +86,7 @@ class ProductController extends Controller
             $image = $this->upload($request);
             $request->request->add(['image'=>$image]);
         }
+
         $input = $request->except(['tag','color','file']) ;
 
         $product = $this->product->find($id);

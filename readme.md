@@ -5,7 +5,7 @@ This project tes crud with laravel
 This project built with Laravel 5.5.
 
 1. Clone the repo : `git clone https://github.com/dickyeka/eisbetech-tes.git`
-2. `$ cd tes-crud`
+2. `$ cd eisbetech-tes`
 3. `$ composer install`
 4. `$ cp .env.example .env`
 5. `$ php artisan key:generate`
