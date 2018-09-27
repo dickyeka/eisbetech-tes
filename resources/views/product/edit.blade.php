@@ -78,8 +78,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
         <script type="text/javascript">
             $(".category").select2();
-            $('.tag').select2().val({{ json_encode($product->tags->pluck('id')) }}).trigger('change');
-            $('.color').select2().val({{ json_encode($product->colors->pluck('id')) }}).trigger('change');
+            $('.tag').select2().val({{ json_encode($tagSelected) }}).trigger('change');
+            $('.color').select2().val({{ json_encode($colorSelected) }}).trigger('change');
             function readURL(input) {
                 if (input.files && input.files[0]) {
                     var reader = new FileReader();

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "02f3e15cbfaa06b0851279668e369432",
-    "content-hash": "25cb063ea5f33823225db4dbcd7c727c",
+    "hash": "ff613e6d68d9ff2935ea6d185918aa94",
+    "content-hash": "932ed5d23a9e7f0d94bcf10c5ed107d2",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1382,6 +1382,117 @@
                 "uuid"
             ],
             "time": "2018-07-19 23:38:55"
+        },
+        {
+            "name": "spatie/laravel-responsecache",
+            "version": "4.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-responsecache.git",
+                "reference": "61ba3301e4f4f5436e58cb7eee808bc8caf42b9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/61ba3301e4f4f5436e58cb7eee808bc8caf42b9c",
+                "reference": "61ba3301e4f4f5436e58cb7eee808bc8caf42b9c",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.5.0|~5.6.0|~5.7.0",
+                "nesbot/carbon": "~1.19",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
+                "phpunit/phpunit": "^6.2|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\ResponseCache\\ResponseCacheServiceProvider"
+                    ],
+                    "aliases": {
+                        "ResponseCache": "Spatie\\ResponseCache\\Facades\\ResponseCache"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ResponseCache\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Speed up a Laravel application by caching the entire response",
+            "homepage": "https://github.com/spatie/laravel-responsecache",
+            "keywords": [
+                "cache",
+                "laravel",
+                "laravel-responsecache",
+                "performance",
+                "response",
+                "spatie"
+            ],
+            "time": "2018-09-23 12:16:02"
+        },
+        {
+            "name": "spatie/laravel-view-models",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-view-models.git",
+                "reference": "90fee7fdf4c488a7639cda74f472becd89323769"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-view-models/zipball/90fee7fdf4c488a7639cda74f472becd89323769",
+                "reference": "90fee7fdf4c488a7639cda74f472becd89323769",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.7",
+                "phpunit/phpunit": "^7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ViewModels\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brent Roose",
+                    "email": "brent@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "View models in Laravel",
+            "homepage": "https://github.com/spatie/laravel-view-models",
+            "keywords": [
+                "laravel-view-models",
+                "spatie"
+            ],
+            "time": "2018-09-12 14:49:32"
         },
         {
             "name": "swiftmailer/swiftmailer",
