@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Repositories\Product\CacheProductRepository;
+use App\Repositories\Product\ProductRepository;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 
